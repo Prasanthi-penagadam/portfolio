@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&family=Quicksand:wght@500&family=Raleway:wght@600&family=Ysabeau+SC&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' sans-serif;
+}
+
+body {
+    background-color:burlywood;
+    color: #fff;
+    height: fit-content;
+}
+
+#header {
+    width: 100%;
+    height: 100Vh;
+    background-color: #bcaaaa;
+    background-size: center;
+    background-position: center;
+
+}
+
+.container {
+    padding: 0px 5%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    font-style: oblique;
+    font-weight: bold;
+
+}
+
+.nancy {
+    margin-right: 548px;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 85px;
+    color: darkblue;
+    font-family:'Courier New', Courier, monospace;
+    width: 140px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #151515;
+    font-size: 18px;
+    position: relative;
+    font-style: bold;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after {
+    width: 100%;
+}
+.header-text{
+    margin-top: 0px ;
+    font-size: 30px;
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+    margin-right: 723px;
+}
+.header-text h1 span{
+    color: #ff004f;
+}
+.header-text p{
+    margin-top: 15%;
+    font-size: 47px;
+    text-align: left;
+    color:#0c0c0c;
+    padding: 0%;
+    font-family: 'Lobster Two', cursive;
+    margin-left: 47px;
+}
+.dev img{
+    height: 60vh;
+    padding: 20px;
+    margin-left: 823px;
+    margin-top: -310px;
+    border-radius: 50px;
+}
+
+.main {
+    width: 100vw;
+    height: 100%;
+    background-color: burlywood;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.container-main {
+    margin-left: 400px;
+    margin-top: 70px;
+
+}
+
+.infocontainer {
+    height: 58vh;
+    margin: 144px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    width: auto;
+}
+
+
+.btn-sm {
+    font-size: 14px;
+    padding: 10px 8px;
+    margin: 12px 0;
+    width: 10%;
+}
+
+.btn:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.devpic img {
+    height: 58vh;
+    margin-left: 475px;
+}
+/* -------contact---------- */
+#contact {
+    background-color: rgb(235, 231, 226);
+    padding-right: 30px;
+}
+.container-main{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contact-left {
+    flex-basis: 35%;
+    margin: 10px;
+}
+
+.contact-right {
+    flex-basis: 60%;
+    margin-right: 10px;
+    margin-top: -214px;
+}
+
+.contact-left p {
+    margin-top: 30px;
+    margin-right: 70px;
+}
+.contact-left h1{
+    margin-right: 320px;
+}
+
+.contact-left p i {
+    color: red;
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+.social-icons {
+    margin-top: 30px;
+    padding-right: 204px;
+    text-align: right;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #0c0c0c;
+    margin-right: 5px;
+    font-size: 30px;
+    display: inline-block;
+    transition: transform 0.5s;
+    text-align: left;
+}
+
+.social-icons a:hover {
+    color: #ff004f;
+    transform: translate(-5px);
+}
+
+.btn-sm {
+    display: inline-block;
+    background: #ff004f;
+    border-radius: 10px;
+}
+
+.contact-right form {
+    width: 100%;
+}
+
+form input,
+form textarea {
+    width: 50%;
+    border: 0;
+    outline: none;
+    background: #bcaaaa;
+    padding: 15px;
+    margin: 15px 0;
+    color: #1f1c1c;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form input:hover {
+    background-color: #fff;
+    border: 2px solid grey;
+}
+
+.form {
+    margin-right: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #0c0c0c;
+}
+/* --------myintro---- */
+
+.infocontainer2 {
+    width: 100vw;
+    height: 20vh;
+    background-color: rgb(161, 161, 139);
+
+}
+.intro{
+    height: 100%;
+}
+
+.intropic img {
+    width: 14vw;
+    border-radius: 51%;
+    margin-left: 148px;
+    margin-top: -62px;
+
+}
+
+.tittle h1 {
+    text-align: right;
+    padding-top: 10px;
+    margin-right: 148px;
+}
+
+.address {
+    text-align: right;
+    padding-top: 10px;
+    margin-right: 146px;
+}
+
+.education {
+    text-align: left;
+    color: rgb(109, 10, 239);
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    padding-left: 62px;
+    padding-top: 10px;
+}
+.education nav{
+    text-align: left;
+}
+ ul {
+    text-align: left;
+    margin-left: 62px;
+    padding-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: #0c0c0c;
+}
+
+.Qualities {
+    text-align: right;
+    color:darkblue;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    padding-right: 100px;
+    margin-top: -58px;
+}
+ p{
+    text-align: right;
+    padding-right: 144px;
+    font-size: 20px;
+    color: #0c0c0c;
+}
+/* -------project-------- */
+body{
+    background-color: rgb(62, 106, 144);
+}
+.content .S_head{
+    text-align: center;
+    margin: 30px;
+    margin-top: 90px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 60px;
+}
+.content p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+}
+.cards_in{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.cards_pr{
+    margin:20px;
+}
+.cards_in img{
+    transition: all 0.5s ease;
+}
+.cards_pr img:hover{
+    width: 700px;
+    height: 450px; 
+    transform: scale(1.1);
+}
+.btn_pr{
+    background: linear-gradient(#f1a6a6,#ed5050);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-left: 650px;
+    padding: 15px;
+    border-radius:100px;
+    color: #fff;
+    margin-top: 100px;            
+}
+/* ------services------- */
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&family=Quicksand:wght@500&family=Raleway:wght@600&family=Ysabeau+SC&display=swap');
+body{
+    background-color: rgb(229, 252, 250);
+    color: black;
+}
+.container-se{
+    padding:25px;
+}
+nav ul a li{
+    color: black;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Lobster Two', cursive;
+    font-size: 70px;
+}
+
+.cards{
+    margin-top: 70px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-in{
+    flex-basis: 31.33%; 
+   padding: 10px;
+  box-sizing: border-box;
+  width: 150px;
+  height: 250px;
+ background-color: #eafff5;
+ border-radius: 8px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+ margin:10px;
+}
+.cards span{
+    background-color: rgb(63, 225, 152);
+    border-radius: 50%;
+    width:40px;
+    height: 40px;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    margin-left: 220px;
+    margin-bottom: 20px;
+}
+.cards .head{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.cards .info{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Quicksand', sans-serif;
+    padding:10px;
+}
